@@ -4,7 +4,7 @@ import { IoIosClose } from "react-icons/io";
 import { toast } from 'react-hot-toast';
 
 export default function Connect({ showConnect, setShowConnect }) {
-    const [state, handleSubmit] = useForm("xbljojyw");
+    const [state, handleSubmit] = useForm("mgvylpjp");
 
     // Use event parameter to prevent default behavior
     const handleSubmitForm = (event) => {
