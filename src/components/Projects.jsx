@@ -26,37 +26,57 @@ export default function Projects() {
                         <div className='h-full border-l-2 md:block hidden border-slate-500'></div>
                         <div className='flex flex-col gap-5'>
                             {/* project Details */}
-                            <div className='text-slate-400 relative flex flex-col items-start md:gap-4 gap-2 mb-'>
-                                <h1 className='text-xl text-white font-bold'>{project.name}</h1>
-                                {/* links */}
-                                <div className='px-20 mr-28 '>
-                                    <img className="rounded-md h-[250px] shadow-sm shadow-white border-2 border-red-700" src={project.poster} alt={project.name} />
-                                    <div className='flex mt-5 gap-4'>
-                                       <a className='flex items-center text-gray-300 hover:text-white transition-colors duration-300' href={project.github} target='_blank'><FaGithub /> <span className='ml-2'>View Code</span></a>
-                                    <a className='flex items-center text-gray-300 hover:text-white transition-colors duration-300' href={project.live} target='_blank'><BsBoxArrowUpRight /> <span className='ml-2'>Live Demo</span></a>
-                                    </div>
-                                    
-                                
-                                </div>
-                                <div className='relative group'>
-                                    <div className='transition-all duration-200 bottom-0 left-0 px-4  text-white w-full overflow-y-scroll bg-black  rounded-md hide-scrollbar'> {/* Works */}
-                                        <ul className='list-disc list-outside  pl-3'>
-                                            {
-                                                project.points.map((list, i) => {
-                                                    return <li key={i} className='mb-2 '>{list}</li>
-                                                })
-                                            }
-                                        </ul>
-                                        {/* technologies used */}
-                                        <div>{project.technologies.map((tech) => {
-                                            return <span key={tech} className="inline-block bg-blue-500 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-blue-500 mr-2 mb-2 rounded-full">{tech}</span>
-                                        })}</div></div>
+                            <div className='text-slate-400 relative flex flex-col items-start md:gap-4 gap-2 mb-4'>
+    <h1 className='text-xl text-white font-bold'>{project.name}</h1>
 
-                                    
-                                </div>
+    {/* Project Image & Links */}
+    <div className='w-full'>
+        <img
+            className="rounded-md w-full max-w-md md:max-w-lg h-auto shadow-sm shadow-white border-2 border-red-700 mx-auto"
+            src={project.poster}
+            alt={project.name}
+        />
 
+        {/* Links */}
+        <div className='flex flex-wrap justify-center md:justify-start mt-5 gap-4'>
+            <a
+                className='flex items-center text-gray-300 hover:text-white transition-colors duration-300'
+                href={project.github}
+                target='_blank'
+                rel='noopener noreferrer'
+            >
+                <FaGithub /> <span className='ml-2'>View Code</span>
+            </a>
+            <a
+                className='flex items-center text-gray-300 hover:text-white transition-colors duration-300'
+                href={project.live}
+                target='_blank'
+                rel='noopener noreferrer'
+            >
+                <BsBoxArrowUpRight /> <span className='ml-2'>Live Demo</span>
+            </a>
+        </div>
+    </div>
 
-                            </div>
+    {/* Description & Technologies */}
+    <div className='relative group w-full'>
+        <div className='transition-all duration-200 bottom-0 left-0 px-4 text-white w-full overflow-y-scroll bg-black rounded-md hide-scrollbar'>
+            <ul className='list-disc list-outside pl-3'>
+                {project.points.map((list, i) => (
+                    <li key={i} className='mb-2'>{list}</li>
+                ))}
+            </ul>
+
+            {/* Technologies */}
+            <div className='flex flex-wrap'>
+                {project.technologies.map((tech) => (
+                    <span key={tech} className="inline-block bg-blue-500 bg-opacity-30 px-3 py-1.5 text-xs font-medium text-blue-500 mr-2 mb-2 rounded-full">{tech}</span>
+                ))}
+            </div>
+        </div>
+    </div>
+</div>
+
 
                             <div className='w-full h-[1px] md:hidden bg-slate-500 opacity-45'></div>
                         </div>
