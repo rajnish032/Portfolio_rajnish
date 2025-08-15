@@ -9,32 +9,32 @@ const certifications = [
     {
         title: 'JavaScript',
         issuer: 'Namaste Dev.com',
-        link: 'https://drive.google.com/file/d/14wfOB-t7n_WSup0S8hizXVZhi1TAiKA2/view?usp=drive_link'
+        link: 'https://drive.google.com/file/d/1v7JG4qzJjtQsCIZJFh0yva5ZZzFQRCJz/view?usp=drive_link'
     },
     {
         title: 'Postman API Fundamentals',
         issuer: 'Postman',
-        link: 'https://drive.google.com/file/d/14wfOB-t7n_WSup0S8hizXVZhi1TAiKA2/view?usp=drive_link'
+        link: 'https://drive.google.com/file/d/12yvIcWnvCg7rmu_OuOCe7m02AUfv33C0/view?usp=drive_link'
     },
     {
         title: 'Hackfest 25 Winner',
         issuer: 'IIT Dhanbad',
-        link: 'https://drive.google.com/file/d/14wfOB-t7n_WSup0S8hizXVZhi1TAiKA2/view?usp=drive_link'
+        link: 'https://drive.google.com/file/d/1lt3WlICXtteyLvOQESTBWd6kEzr_7otz/view?usp=drive_link'
     },
     {
         title: 'Open Source Contributer',
         issuer: 'GirlScript Summer of Code',
-        link: 'https://drive.google.com/file/d/14wfOB-t7n_WSup0S8hizXVZhi1TAiKA2/view?usp=drive_link'
+        link: 'https://drive.google.com/file/d/1s-A4v9WmcPqvpdLMKbTkOHE3BxtvQfcD/view?usp=sharing'
     },
     {
         title: 'Generative AI',
         issuer: 'Microsoft and Linkedin',
-        link: 'https://drive.google.com/file/d/1u7HAF34VAFs2b2cIa-Vum2hIG72x2-4D/view?usp=drive_link'
+        link: 'https://drive.google.com/file/d/1u7HAF34VAFs2b2cIa-Vum2hIG72x2-4D/view?usp=sharing'
     },
     {
         title: 'Open Source Project Admin',
         issuer: 'SWOC',
-        link: 'https://drive.google.com/file/d/1kpV57ANwFUwF7b7oSML5shBBRwu4lJGy/view?usp=drive_link'
+        link: 'https://drive.google.com/file/d/1kpV57ANwFUwF7b7oSML5shBBRwu4lJGy/view?usp=sharing'
     }
 ];
 
