@@ -17,7 +17,7 @@ export default function Education() {
                         <h1 className='text-2xl text-white font-bold'>B.Tech CSE (ai & ml )</h1>
                         <h3 className='text-[18px]'>B. P. Mandal college of engineering</h3>
                         <h4 className='text-sm'>September 2023 - Present</h4>
-                        <h4 className='text-sm'>6.8 CGPA</h4>
+                        <h4 className='text-sm'>7.35 CGPA</h4>
                     </div>
                 </div>
             </div>

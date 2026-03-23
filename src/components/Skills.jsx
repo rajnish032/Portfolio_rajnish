@@ -1,8 +1,8 @@
 import React from 'react'
 
 export default function Skills() {
-    const languages = ["JavaScript", "TypeScript", "C++", "C"]
-    const frameworks = ["ReactJs", "NextJs", "ExpressJs","Web-Scrapping", "TailwindCSS", "Bootstrap"]
+    const languages = ["JavaScript", "TypeScript", "C++", "C", "Puthon"]
+    const frameworks = ["ReactJs", "NextJs", "ExpressJs","Web-Scrapping", "TailwindCSS", "Bootstrap", "Panda", "Numpy"]
     const backend = ["NodeJs", "REST APIs", "CRUD operations", "Socket.IO"]
     const database = ["MongoDB", "SQL"]
     const tools = ["Git", "GitHub", "Visual Studio Code", "Postman"]

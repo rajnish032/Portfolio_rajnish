@@ -21,11 +21,12 @@ export default function Experience() {
                     </div>
                     {/* Works */}
                     <ul className='list-disc list-outside text-slate-300 pl-3'>
-                        <li className='mb-2 '> Currently working with a team to develop and implement a Gis Data Processing Network using Next.js,
-                            Node.js, Express, and MongoDB to efficiently manage gis engineers' profiles, geolocation, and
-                            experience data, enhancing operational efficiency and task allocation.</li>
-                        <li className='mb-2'>Increased gis engineer onboarding by 30% by streamlining the registration and verification process,
-                            reducing friction, and enhancing user experience.</li>
+                        <li className='mb-2 '> Developed RESTful APIs using Node.js and Express, which supported user base growth of 10,000 active users.</li>
+                        <li className='mb-2'>Implemented and integrated new features and functionalities using Next and Node.js, reducing development time
+by 15%.</li>
+                         <li>Contributed to AeroTribe, a community platform connecting geospatial surveyors and drone pilots, enhancing collaboration and networking.</li>
+                         <li>Optimized server-side performance resulting in 25% faster load times by refining queries and database interactions
+with MongoDB</li>
                         <li>Improved website SEO by 25%, enhancing search engine visibility and driving higher organic traffic. </li>
                     </ul>
                     <div>{["React.js", "Next.js", "Express.js", "Node.js", "MongoDb", "TailwindCSS", "JavaScript"].map((lang) => {

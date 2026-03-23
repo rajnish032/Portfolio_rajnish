@@ -19,7 +19,7 @@ export default function Details() {
                 <div className='md:w-[68%] md:text-start text-center px-6 md:px-0 text-slate-400'>Passionate MERN Stack Developer creating seamless, user-focused web applications that blend innovation and functionality.</div>
                 {/* Resume and Links */}
                 <div className='flex w-fit py-1 gap-6 items-center'>
-                    <a className='flex items-center px-2 py-1 rounded-md gap-2 border-white border w-fit hover:bg-white hover:text-black transition-all duration-200' href="https://drive.google.com/file/d/1YYDzCi-bHbVAgOnvDwjvhp0F5DFuXed0/view?usp=drive_link" target='_blank'><FaFileDownload /><span>Resume</span></a>
+                    <a className='flex items-center px-2 py-1 rounded-md gap-2 border-white border w-fit hover:bg-white hover:text-black transition-all duration-200' href="https://drive.google.com/file/d/155Y_8RA4J-bQQDHVSSPkEqIHhKaRrkSM/view?usp=sharing" target='_blank'><FaFileDownload /><span>Resume</span></a>
                     <ul className='flex gap-4 items-center'>
                         <li className='text-2xl text-slate-400 hover:text-white transition-all duration-200' ><a href="https://github.com/rajnish032" target='_blank'><FaGithub /></a></li>
                         <li className='text-2xl text-slate-400 hover:text-white transition-all duration-200' ><a href="https://www.linkedin.com/in/rajnishkuma" target='_blank'><FaLinkedin /></a></li>

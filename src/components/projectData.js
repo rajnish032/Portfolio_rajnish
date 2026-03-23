@@ -1,7 +1,57 @@
 const projectData = [
-  
   {
     id: 1,
+    name: "Academixx - Online Learning Platform",
+    poster:
+      "https://res.cloudinary.com/dz3yaj24a/image/upload/v1774200146/Screenshot_2026-03-22_at_10.51.41_PM_tdnata.png",
+    points: [
+      `Built an education platform for managing courses, users, and payments with a scalable full-stack architecture.`,
+      `Developed responsive and user-friendly UI using React / Next.js and Tailwind CSS.`,
+      `Implemented backend APIs using Node.js and Express for course management, user authentication, and enrollment flows.
+`,
+      `Integrated payment gateway for course purchases and subscriptions.`,
+      `Implemented secure authentication system using JWT and cookies.`,
+      `Designed MongoDB database structure, implemented CRUD operations, and ensured data consistency.`,
+      `Improved performance and reliability by optimizing API calls and frontend state management.`
+    ],
+    technologies: ["ReactJs", "ExpressJS", "NodeJS", "TailwindCSS", "MongoDB","Razorpay"],
+    github: "https://github.com/rajnish032/Academixx",
+    live: "https://academixx.vercel.app",
+  },
+  {
+    id: 2,
+    name: "Connexa",
+    poster:
+      "https://res.cloudinary.com/dz3yaj24a/image/upload/v1774199907/copy_of_screenshot_2026-03-22_at_83254_pm_upwhmk_f972bf.png",
+    points: [
+      `Real-time communication platform built using Next.js, Node.js, MongoDB, and WebSockets. Implemented real-time chat, authentication, and payment integration. Deployed on AWS and handled backend API design.`,
+    ],
+    technologies: ["ReactJs", "ExpressJS", "NodeJS", "TailwindCSS", "MongoDB", "WebSocket"],
+    github: "https://github.com/rajnish032/Connexa",
+    live: "http://13.238.218.216",
+  },
+  {
+    id: 3,
+    name: "PyClimaExplorer",
+    poster:
+      "https://res.cloudinary.com/dz3yaj24a/image/upload/v1774200147/Screenshot_2026-03-22_at_10.45.02_PM_i39msr.png",
+    points: [
+  `Developed PyClimaExplorer, a full-featured climate intelligence dashboard for visualizing multi-dimensional NetCDF datasets through interactive maps and analytics.`,
+  
+  `Engineered a scalable data pipeline using Xarray and Pandas to process large climate datasets and enable real-time filtering by variables, time, and location.`,
+  
+  `Implemented interactive visualizations including global heatmaps, time-series trends, comparative analysis, and 3D globe rendering using Plotly and PyDeck.`,
+  
+  `Built a multi-page application with Streamlit featuring custom UI components, sidebar navigation, and story mode for guided climate data storytelling.`,
+  
+  `Optimized performance through data downsampling and efficient rendering techniques to ensure smooth visualization of large geospatial datasets.`,
+],
+technologies: ["Python", "Streamlit", "Xarray", "Pandas", "NumPy", "Plotly", "PyDeck"],
+github: "https://github.com/HarryOhm33/Hack_It_Out",
+live: "https://pyclima-remarkable.streamlit.app/",
+},
+  {
+    id: 4,
     name: "Geospatial Aero2Astro",
     poster:
       "https://res.cloudinary.com/dz3yaj24a/image/upload/v1750181218/Screenshot_2025-06-17_120104_jg3el0.png",
@@ -18,7 +68,7 @@ and seamless navigation across admin and user dashboard and profile pages. `,
     live: "https://geospatial.aero2astro.com/",
   },
   {
-    id: 2,
+    id: 5,
     name: "PriceWise (Amazon Price-tracker Web App)",
     poster:
       "https://res.cloudinary.com/dz3yaj24a/image/upload/v1750181250/Screenshot_2025-06-17_115954_xradh5.png",
@@ -34,7 +84,7 @@ and seamless navigation across admin and user dashboard and profile pages. `,
     live: "https://price-tracker-gilt-five.vercel.app/",
   },
   {
-    id: 3,
+    id: 6,
     name: "FeedX(360 degree Feedback Platform) ",
     poster:
       "https://res.cloudinary.com/dz3yaj24a/image/upload/v1750418973/Screenshot_2025-06-20_165907_miesnv.png",
@@ -56,7 +106,7 @@ feedback`,
     live: "https://feedxmarkii.netlify.app",
   },
   {
-    id: 4,
+    id: 7,
     name: "Wonderlust(Hotel-booking Web App) ",
     poster:
       "https://res.cloudinary.com/dz3yaj24a/image/upload/v1750418839/Screenshot_2025-06-20_165628_yowvcm.png",
@@ -72,7 +122,7 @@ feedback`,
     live: "https://wonderlust-yl83.onrender.com/listings",
   },
   {
-    id: 4,
+    id: 8,
     name: "Zeoradha frontend Clone",
     poster:
       "https://res.cloudinary.com/dz3yaj24a/image/upload/v1750420401/Screenshot_2025-06-20_171331_ymrwbp.png",
@@ -88,7 +138,7 @@ feedback`,
     live: "https://frontendzerodha.netlify.app/",
   },
   {
-    id: 4,
+    id: 9,
     name: "Weather App",
     poster:
       "https://res.cloudinary.com/dz3yaj24a/image/upload/v1750420420/Screenshot_2025-06-20_171220_lfg0q6.png",
